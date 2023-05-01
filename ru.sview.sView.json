@@ -1,12 +1,12 @@
 {
     "app-id" : "ru.sview.sView",
     "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "21.08",
+    "runtime-version" : "22.08",
     "sdk" : "org.freedesktop.Sdk",
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
-            "version": "21.08",
+            "version": "22.08",
             "add-ld-path": "."
         }
     },
@@ -35,8 +35,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url" : "https://hyperrealm.github.io/libconfig/dist/libconfig-1.7.2.tar.gz",
-                    "sha256": "7c3c7a9c73ff3302084386e96f903eb62ce06953bb1666235fac74363a16fad9"
+                    "url" : "https://hyperrealm.github.io/libconfig/dist/libconfig-1.7.3.tar.gz",
+                    "sha256": "545166d6cac037744381d1e9cc5a5405094e7bfad16a411699bcff40bbb31ee7"
                 }
             ]
         },
@@ -86,7 +86,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/gkv311/sview.git",
-                    "commit": "9adb58bad1a2a26d3e1ff7a22f9d217d9fb4ae6a"
+                    "commit": "301eccf5f81e0483710e01ec477906a13fb8988b"
                 },
                 {
                     "type": "file",
