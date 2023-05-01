@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 rm -f ru.sview.sView.flatpak
-rm -rf _build ; mkdir _build
-rm -rf _repo ; mkdir _repo
+rm -rf build-dir ; mkdir build-dir
 
-flatpak-builder --ccache --force-clean _build ru.sview.sView.json --repo=_repo
-flatpak build-bundle _repo ru.sview.sView.flatpak ru.sview.sView master
+flatpak-builder --ccache --force-clean build-dir ru.sview.sView.yaml
+flatpak-builder --user --install --force-clean build-dir ru.sview.sView.yaml
+# flatpak build-bundle _repo ru.sview.sView.flatpak ru.sview.sView master
