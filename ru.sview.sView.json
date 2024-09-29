@@ -1,12 +1,12 @@
 {
     "app-id" : "ru.sview.sView",
     "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "22.08",
+    "runtime-version" : "24.08",
     "sdk" : "org.freedesktop.Sdk",
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
-            "version": "22.08",
+            "version": "24.08",
             "add-ld-path": "."
         }
     },
@@ -86,7 +86,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/gkv311/sview.git",
-                    "commit": "301eccf5f81e0483710e01ec477906a13fb8988b"
+                    "commit": "4e5a3906f17cbf0a5de227f61b2e25ae510caeb9"
                 },
                 {
                     "type": "file",
