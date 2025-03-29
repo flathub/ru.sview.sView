@@ -19,13 +19,13 @@
     <screenshot type="default">
       <caption>Main Window</caption>
       <image width="788" height="567">
-        https://raw.githubusercontent.com/hadess/flathub/sview/screenshots/sview-with-osd.jpg
+        https://raw.githubusercontent.com/flathub/ru.sview.sView/refs/heads/master/screenshots/sview-with-osd.jpg
       </image>
     </screenshot>
     <screenshot>
       <caption>Viewing video without OSD</caption>
       <image width="1052" height="636">
-        https://raw.githubusercontent.com/hadess/flathub/sview/screenshots/sview-no-osd.jpg
+        https://raw.githubusercontent.com/flathub/ru.sview.sView/refs/heads/master/screenshots/sview-no-osd.jpg
       </image>
     </screenshot>
   </screenshots>
