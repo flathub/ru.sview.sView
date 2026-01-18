@@ -1,18 +1,8 @@
 {
     "app-id" : "ru.sview.sView",
     "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "24.08",
+    "runtime-version" : "25.08",
     "sdk" : "org.freedesktop.Sdk",
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "directory": "lib/ffmpeg",
-            "version": "24.08",
-            "add-ld-path": "."
-        }
-    },
-    "cleanup-commands": [
-        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
-    ],
     "command" : "sView",
     "rename-desktop-file" : "sViewMP.desktop",
     "rename-icon" : "sview",
