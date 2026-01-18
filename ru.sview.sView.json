@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ValveSoftware/openvr/archive/refs/tags/v2.5.1.tar.gz",
-                    "sha256": "54f654fce001682d8ac608f544a6c41e03a672b005c1deca3579fa36480a537c"
+                    "url": "https://github.com/ValveSoftware/openvr/archive/refs/tags/v2.12.14.tar.gz",
+                    "sha256": "becc2e6b956d1b98d66e2cc75fd8b20db94eb5af584ec360a4dad7e8adec3176"
                 }
             ],
             "cleanup": [
