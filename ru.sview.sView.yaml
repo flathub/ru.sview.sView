@@ -68,7 +68,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/gkv311/sview.git
-        commit: b7ec490a059024c26a9faec87baedb79a92d33c3
+        tag: '26_09'
+        commit: 69b2009c0f13b6e246b79c966eacc757f9503398
       - type: file
         path: ru.sview.sView.appdata.xml
     post-install:
